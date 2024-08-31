@@ -4,15 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio</title>
-    
 
+                <!-- daisyUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+                <!-- font -->
+
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+                <!-- font awesome -->
+               
+<style>
+    .font-manrope{
+        font-family: "Manrope", sans-serif;
+    }
+</style>
+
+                    <!-- font awesome -->
+
+                    <script src="https://kit.fontawesome.com/139908e28d.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
-        <header>
-                    <nav>
+<body class="font-manrope bg-[#F7F7F7]">          
+                     <!-- header section -->
+                     <header class="container p-5 lg:p-0 mx-auto">
 
+                    <!-- nav -->
+                    <nav>
+                        <div class="navbar">
+                            <div class="navbar-start">
+                            
+                              <a class="btn btn-ghost text-xl font-extrabold">Rinterio</a>
+                            </div>
+                            <div class="navbar-center hidden lg:flex">
+                              <ul class="menu menu-horizontal px-1">
+                                <li><a>Item 1</a></li>
+                                <li><a>Item 3</a></li>
+                                <li><a>Item 3</a></li>
+                                <li><a>Item 3</a></li>
+                                <li><a>Item 3</a></li>
+                                
+                              </ul>
+                            </div>
+                            <div class="navbar-end gap-5">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                
+                                <i class="fa-solid fa-cart-shopping "></i>
+                                
+                              <a class="btn">Book Consult</a>
+                            </div>
+                          </div>
                     </nav>
+
+
+                    <div class="text-center my-10">
+                        <!-- img -->
+                        <div>
+                            <img class="mx-auto" src="./images/banner.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold">A barn house of this design has a striking appearance</h1>
+                            <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                            <button>
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                    
+
+
         </header>
 
         <main>
